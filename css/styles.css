@@ -1,4 +1,8 @@
 body{
+	background: url(../images/building2.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
 
 }
 #contact-text {
@@ -6,26 +10,42 @@ body{
 	margin:0;
 	padding:2rem; 
 }
-#contact-text h2 {
+#contact-text h1 {
 	margin-top: 1rem;
+	color: white;
 	text-align: center;
 	margin-bottom: 3rem;
 }
 #contact-text p {
-	
+	color:white;
 	margin-top:2rem ;
 	padding: 2rem;
 	
 }
+.icons{
+	width:80px;
+	height:80px;
+	border-radius: 50%;
+}
 #address-form {
-	border:1px solid black;
+	
 	padding-right: 220px;
+}
+#address-form .row {
+	margin: 10px 2px;
+}
+#address-form h3 {
+	color:#00bcd4;
+}
+#address-form p {
+	color: white;
 }
 #contact-form {
 	border:1px solid black;
-	left: 60px;
-	width:250px;
-	height: 400px; 
+	left: 30px;
+	width:100px;
+	background: #fff;
+	height: 300px; 
 }
 .label-text {
 	left:2.5rem;
@@ -33,6 +53,11 @@ body{
 }
 .input-box {
 	margin:1.5rem;
+}
+#input-box input:focus {
+	.label-text{
+		transform: translateY(-20px);
+	};
 }
 #input-box1{
 	border:none;
@@ -50,7 +75,18 @@ body{
 	width:260px;
 	border-bottom: 2px solid black;
 }
-.label-text:focus {
-	transition: 0.5s;
-	transform: translateY(-10px);
+.label-text{
+	color:#e91e63;
+	font-size: 12px;
+	transition: 0.8s;
+	transform: translateY(-20px);
+}
+#submit {
+	padding:5px;
+	width:100px;
+	color:white;
+	border-radius: 4px;
+	font-weight: bold;
+	background:#00bcd4 ;
+	border:none;
 }
