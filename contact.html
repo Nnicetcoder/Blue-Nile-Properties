@@ -9,12 +9,15 @@
 <body>
 <section>
 	<div class="container">
-		<div class="row" id="contact-text">
-			<h2>CONTACT US </h2>
+		<div  id="contact-text">
+			
+			<h1>CONTACT US </h1>
+			
 			<p>you can reach out to us in working days or message <br>us or even call the contact below </p>
+			
 		</div>
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-6" id="address-form">
 				<div class="row">
 					<div class="col-md-6">
 						
@@ -44,20 +47,20 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6" id="contact-form">
 				<form>
 					<h2>Send Message</h2>
 					<div class="input-box">
-						<input type="text" name="full_name" required="required">
-						<span>Full Name</span>
+						<input type="text" id="input-box1" name="full_name" required="required">
+						<span class="label-text">Full Name</span>
 					</div>
 					<div class="input-box">
-						<input type="text" name="email" required="required">
-						<span>Email</span>
+						<input type="text" id="input-box2" name="email" required="required">
+						<span class="label-text">Email</span>
 					</div>
 					<div class="input-box">
-						<input type="text" name="message" required="required">
-						<span>Your message here</span>
+						<textarea type="text" id="input-box3" name="message" required="required"></textarea>
+						<span class="label-text">Your message here</span>
 					</div>
 					<div class="input-box">
 						<input type="submit" name="submit" value="Send">

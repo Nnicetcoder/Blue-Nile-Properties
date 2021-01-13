@@ -1,0 +1,56 @@
+body{
+
+}
+#contact-text {
+	text-align: center;
+	margin:0;
+	padding:2rem; 
+}
+#contact-text h2 {
+	margin-top: 1rem;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+#contact-text p {
+	
+	margin-top:2rem ;
+	padding: 2rem;
+	
+}
+#address-form {
+	border:1px solid black;
+	padding-right: 220px;
+}
+#contact-form {
+	border:1px solid black;
+	left: 60px;
+	width:250px;
+	height: 400px; 
+}
+.label-text {
+	left:2.5rem;
+	position:absolute;
+}
+.input-box {
+	margin:1.5rem;
+}
+#input-box1{
+	border:none;
+	width:260px;
+	border-bottom: 2px solid black;
+}
+#input-box2 {
+	border:none;
+	width:260px;
+	border-bottom:2px solid black;
+}
+#input-box3{
+	margin-top:-20px;
+	border:none;
+	width:260px;
+	border-bottom: 2px solid black;
+}
+.label-text:focus {
+	transition: 0.5s;
+	transform: translateY(-10px);
+}
