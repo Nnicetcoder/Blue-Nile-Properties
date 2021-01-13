@@ -48,8 +48,17 @@ body{
 	height: 300px; 
 }
 .label-text {
+	pointer-events: none;
+	transition: 0.5s;
+	font-size: 16px;
+	color: #666;
 	left:2.5rem;
 	position:absolute;
+}
+.contact-form #input-box1 focus~ .label-text {
+	color:#e91e63;
+	font-size: 12px;
+	transform: translate(-20px);
 }
 .input-box {
 	margin:1.5rem;
@@ -75,12 +84,9 @@ body{
 	width:260px;
 	border-bottom: 2px solid black;
 }
-.label-text{
-	color:#e91e63;
-	font-size: 12px;
-	transition: 0.8s;
-	transform: translateY(-20px);
-}
+
+	
+
 #submit {
 	padding:5px;
 	width:100px;
