@@ -43,10 +43,10 @@ This web page was made with:
 
 ## Contact information.
 * nntwari75@gmail.com
-*
-*
-*
-*
+* wagabi98@gmail.com
+* libancw404@gmail.com
+* koechkipz03@gmail.com
+* 
 
 ## License and Copyright information.
 * all rights reserved to the users.

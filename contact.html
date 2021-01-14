@@ -2,12 +2,40 @@
 <html>
 <head>
 	<title>Contact page</title>
+	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="js/scripts.js"></script>
 </head>
 <body>
-<section>
+<!--navbar-->
+
+<section class="bg-landing">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navTop">
+        <a class="logo-font navbar-brand" href="#">Blue-Nile <br> Properties</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav my-4 ml-auto">
+            <li class="nav-item ml-10 active">
+              <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item ml-10">
+              <a class="nav-link" href="#">Search</a>
+            </li>
+            <li class="nav-item ml-10">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item ml-10">
+              <a class="nav-link" href="#" >About Us:</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</section>	
+<section id="after-bg">
 	<div class="container">
 		<div  id="contact-text">
 			
@@ -63,7 +91,7 @@
 						<span class="label-text">Your message here</span>
 					</div>
 					<div class="input-box">
-						<input id="submit" type="submit" name="submit" value="Send">
+						<input id="submit" type="submit" onclick="replyMessage()" name="submit" value="Send">
 					</div>
 
 
@@ -75,5 +103,28 @@
 		</div>
 	</div>
 </section>
+<section class="footer">
+    <div class="container">
+
+      <div class="outer">
+        <div class="sans serif font txt-white mar-top2">
+            <div class="featured-listings container-fluid">
+                <h3 class="heading"><center>BLUE-NILE <span>PROPERTIES</span></center></h3>
+              </div>
+          <p class="small text">Our properties are the most efficients with large spacious rooms to rent<br>
+            to accept visitors and orders at any time of the day and night within Nairobi.</p>
+        </div>
+        <p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+    </p>
+        <div class="txt-white">
+          <p class="small text">© 2021. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
