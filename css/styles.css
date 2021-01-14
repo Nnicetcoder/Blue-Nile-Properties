@@ -9,10 +9,10 @@ body{
 .navbar-collapse{
     left:70%;
     position:fixed;
-    padding:5px;
-    margin:10px;
+    padding:2px;
+    margin:5px;
     top:0%;
-    font-weight: 500;
+    font-weight: 300;
     letter-spacing: 0.5px;
 }
 .navbar-brand{
